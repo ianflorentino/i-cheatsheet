@@ -12,9 +12,9 @@
 #!/bin/bash
 
 if [ $1 ]; then
-  cat ~/cheatsheet/$1*
+  cat ~/i-cheatsheet/$1*
   else
-    ls ~/cheatsheet/
+    ls ~/i-cheatsheet/
   fi
 ```
 5) In cheatsheet touch files 'git', 'vim', 'docker', etc.
