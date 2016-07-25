@@ -1,0 +1,18 @@
+  ###########
+  ### SCP ###
+  ###########
+    scp user@your.server.com:/path/to/foo /home/user/place/you/want
+
+  #############
+  ### Flags ###
+  #############
+    -r   # recursively
+    -i   # use PEM/rsa
+    -p   # create paths
+
+  ##################
+  ### MySQL Dump ###
+  ##################
+    mysqldump -u [uname] -p[pass] db_name > db_backup.sql
+
+
