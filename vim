@@ -22,6 +22,21 @@
     c + w          # delete current place to end of word
     c + a + w      # delete word
     c + i + '      # delete in quotes
+    c + a + b      # delete in block (), {}
+
+  ########################
+  ### Search & Replace ###
+  ########################
+    %s/search_word/replace_word/g
+
+  #################
+  ### Recording ###
+  #################
+    q + r          # record on 'r'
+    ...execute your sequence
+    q
+    shift + @ + r  # repeat recording
+    shift + @ + @  # repeat recording
 
   ####################
   ### DOT repeater ###
